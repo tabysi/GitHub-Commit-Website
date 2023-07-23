@@ -14,6 +14,31 @@ If you have any questions create a issue <3
 
 ## Preview
 
+<style>
+  #slideshow {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar for a cleaner look */
+  }
+
+  #slideshow::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for a cleaner look in webkit browsers */
+  }
+
+  figure {
+    margin: 0;
+    flex: 0 0 auto;
+    padding: 0 5px;
+  }
+
+  figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+  }
+</style>
+
 <div id="slideshow">
   <figure>
     <img src="./src/Screenshot 2023-07-23 174838.jpg" alt="Slide 1">
@@ -41,27 +66,3 @@ If you have any questions create a issue <3
 
 
 ---
-<style>
-  #slideshow {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none; /* Hide scrollbar for a cleaner look */
-  }
-
-  #slideshow::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for a cleaner look in webkit browsers */
-  }
-
-  figure {
-    margin: 0;
-    flex: 0 0 auto;
-    padding: 0 5px;
-  }
-
-  figcaption {
-    text-align: center;
-    margin-top: 5px;
-    font-style: italic;
-  }
-</style>

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind typography;
+@tailwind utilities;
+
+body {
+    z-index: 100 !important;
+    background: url(../src//background2.jpg) top center / cover no-repeat fixed padding-box content-box;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgba(225, 0, 255, 0.3);
+    }
+
+    50% {
+        background-color: rgba(225, 0, 255, 0.5);
+    }
+
+    100% {
+        background-color: rgba(225, 0, 255, 0.3);
+    }
+}
+
+/* Skeleton-Loader-Styling */
+.skeleton-loader {
+    width: 100%;
+    height: 4px;
+    margin-top: 10px;
+    background-color: rgba(225, 0, 255, 0.3);
+    animation: pulse 1.5s infinite;
+}
+
+/* Neue Regeln für die Commit-Liste */
+#commitList {
+    list-style: none;
+    padding: 0;
+}
+
+#commitList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#commitList img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

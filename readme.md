@@ -12,7 +12,7 @@ If you have any questions, create an issue ❤️
 
 ## Preview
 
-The preview below shows the slideshow feature of GitHub Repository Commits:
+The preview below shows the programm.
 
 <div id="slideshow">
   <figure>
@@ -27,8 +27,13 @@ The preview below shows the slideshow feature of GitHub Repository Commits:
 
 ---
 
-## Requirements
+## ToDo:
+- Test - [x]
+- Test [x]
 
+
+
+## Requirements
 To use GitHub Repository Commits, you need the following libraries:
 
 - `axios` - to fetch user data
@@ -37,7 +42,6 @@ To use GitHub Repository Commits, you need the following libraries:
 
 Make sure to include the required libraries and frameworks using their respective CDN links to fully utilize the features and design elements of GitHub Repository Commits. Happy coding!
 
----
 
 ## Source
 

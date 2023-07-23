@@ -28,9 +28,8 @@ The preview below shows the programm.
 ---
 
 ## ToDo:
-- Test - [x]
-- Test [x]
-- [x] - Test
+- [ ] Template
+- [ ] 
 
 
 ## Requirements

@@ -13,12 +13,16 @@ Make sure to include the required libraries and frameworks using their respectiv
 
 If you have any questions create a issue <3
 
+## Images
+<img src="./src/Screenshot 2023-07-23 174838.jpg">
+<img src="./src/Screenshot 2023-07-23 174929.jpg">
+
+---
+
 ## Requirments
 - `axios`           - fetch the user data
 - `tailwindcss`     - design
 - `flowbite`        - skeleton and icons
-
----
 
 ## Source
 - [Axios - CDN](https://axios-http.com/de/)

@@ -17,11 +17,11 @@ The preview below shows the slideshow feature of GitHub Repository Commits:
 <div id="slideshow">
   <figure>
     <img src="./src/Screenshot 2023-07-23 174838.jpg" alt="Slide 1">
-    <figcaption>Slide 1</figcaption>
+    <figcaption>display max. 5 commits</figcaption>
   </figure>
   <figure>
     <img src="./src/Screenshot 2023-07-23 174929.jpg" alt="Slide 2">
-    <figcaption>Slide 2</figcaption>
+    <figcaption>click on the user</figcaption>
   </figure>
 </div>
 

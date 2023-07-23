@@ -8,36 +8,11 @@ Additionally, flowbite comes into play by providing skeleton components and icon
 
 With the combination of these powerful tools, GitHub Repository Commits delivers a delightful experience for users, making it easy to explore and understand repository commits and related information.
 
-Make sure to include the required libraries and frameworks using their respective CDN links to fully utilize the features and design elements of GitHub Repository Commits. Happy coding!
-
-If you have any questions create a issue <3
+If you have any questions, create an issue ❤️
 
 ## Preview
 
-<style>
-  #slideshow {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none; /* Hide scrollbar for a cleaner look */
-  }
-
-  #slideshow::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for a cleaner look in webkit browsers */
-  }
-
-  figure {
-    margin: 0;
-    flex: 0 0 auto;
-    padding: 0 5px;
-  }
-
-  figcaption {
-    text-align: center;
-    margin-top: 5px;
-    font-style: italic;
-  }
-</style>
+The preview below shows the slideshow feature of GitHub Repository Commits:
 
 <div id="slideshow">
   <figure>
@@ -52,17 +27,22 @@ If you have any questions create a issue <3
 
 ---
 
-## Requirments
+## Requirements
 
-- `axios` - fetch the user data
-- `tailwindcss` - design
-- `flowbite` - skeleton and icons
+To use GitHub Repository Commits, you need the following libraries:
+
+- `axios` - to fetch user data
+- `tailwindcss` - for design
+- `flowbite` - for skeleton components and icons
+
+Make sure to include the required libraries and frameworks using their respective CDN links to fully utilize the features and design elements of GitHub Repository Commits. Happy coding!
+
+---
 
 ## Source
+
+You can find the required libraries at the following links:
 
 - [Axios - CDN](https://axios-http.com/de/)
 - [TailwindCSS - CDN](https://tailwindcss.com/docs/installation/play-cdn)
 - [Flowbite - CDN](https://flowbite.com/docs/components/skeleton/)
-
-
----

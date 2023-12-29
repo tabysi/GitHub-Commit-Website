@@ -1,4 +1,4 @@
-# GitHub Repository Commits | API
+# GitHub Repository Commits | Website
 
 GitHub Repository Commits takes advantage of the axios library to interact with the GitHub API. It fetches data related to repositories and users and showcases them in an appealing visual format.
 
@@ -16,12 +16,12 @@ The preview below shows the programm.
 
 <div id="slideshow">
   <figure>
-    <img src="./src/Screenshot 2023-07-23 174838.jpg" alt="Slide 1">
     <figcaption>display max. 5 commits</figcaption>
+    <img src="./src/Screenshot 2023-07-23 174838.jpg" alt="Slide 1">
   </figure>
   <figure>
-    <img src="./src/Screenshot 2023-07-23 174929.jpg" alt="Slide 2">
     <figcaption>click on the user</figcaption>
+    <img src="./src/Screenshot 2023-07-23 174929.jpg" alt="Slide 2">
   </figure>
 </div>
 

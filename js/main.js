@@ -1,9 +1,9 @@
 //*=====================\\
 //?       CONFIG         \\
 //*=======================\\
-const repoOwner = "Trusted-Studios";    //! Your Target Account! not the displayname!
-const Server = true                     //? If you use this for your website pls let this on true, so i can see what you build with my code :D
-let   repoName = "Trusted-Studios-Docs";  //! TargetAccount/Repos
+const repoOwner = "Trusted-Studios";        //! Your Target Account! not the displayname!
+const Server = true                         //? If you use this for your website pls let this on true, so i can see what you build with my code :D
+let   repoName = "Trusted-Studios-Docs";    //! TargetAccount/Repos
 
 const userCard = document.getElementById("userCard");
 const userCardName = document.getElementById("userCardName");
@@ -17,23 +17,6 @@ const uniqueRepositories = {};
 //*=====================\\
 //! DONT TOUCH THIS CODE \\
 //*=======================\\
-
-function PingTabysi () {
-  try {
-    if (Server == true) {
-      console.log("Ping Server --> True")
-    } else if (Server == false) {
-      console.log("Ping Server --> False")
-    } else {
-      console.error("Falscher Parameter")
-    }
-
-  } catch (error) {
-    console.error(error)
-  }
-}
-
-PingTabysi();
 
 async function fetchCommitsByPage(pageNumber) {
   try {
@@ -117,7 +100,7 @@ async function fetchCommits() {
 
       commitButtonGroup.style.display = "flex";
     }
-    // Display the first page of commits by default
+    
     const firstPageCommits = commits.slice(0, maxCommitsPerPage);
     updateCommitList(firstPageCommits);
 
@@ -199,7 +182,6 @@ repoSelector.addEventListener("change", () => {
     const commitList = document.getElementById("commitList");
     commitList.innerHTML = "";
 
-    // Clear the button group when a new repository is selected
     clearButtonGroup();
 
     repoName = selectedRepo;
